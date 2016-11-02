@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="../resources/css/header_style.css">
+<link type="text/css" rel="stylesheet" href="../resources/css/leftbar_style.css">
+<link type="text/css" rel="stylesheet" href="../resources/css/main_style.css">
+<script type="text/javascript" src="../resources/js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="../resources/js/mainjs.js" charset="utf-8"></script>
+<title layout:title-pattern="$CONTENT_TITLE :: $DECORATOR_TITLE">SoriNuri</title>
+</head>
+<body>
+	<!-- <jsp:include page="include/Header.jsp" />
+	<div id="contents" style="background: #fff; float: right; margin-top: 77px;">
+		<div><p th:text=${mytext} ng-app>whatever</p></div>
+		<div id="student_space" style="margin-top:60px;">
+			<div class="stdout"></div>
+		</div>
+	</div>
+	<jsp:include page="include/LeftBar.jsp" />
+	<jsp:include page="include/Bottom.jsp" /> -->
+	<header layout:fragment="header">
+		<h1>Layout Tilte</h1>
+	</header>
+</body>
+</html>

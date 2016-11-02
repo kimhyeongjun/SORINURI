@@ -1,0 +1,171 @@
+@CHARSET "UTF-8";
+
+#student_space {
+	margin: 30px auto 0px auto;
+}
+
+.m_title,.m_icon {
+	float: left;
+}
+
+.m_title {
+	font-size: 25px;
+	font-weight: 600;
+	margin: 0px 0px 0px 10px;
+}
+
+#search {
+	border: 1px solid #aeaeae;
+	background: #efefef;
+	height: 30px;
+	padding-top: 10px;
+	margin-top: 50px;
+}
+
+#search #sc_name {
+	
+}
+
+#search div {
+	float: left;
+}
+
+#search .sc_title {
+	margin: 3px 10px 0px 15px;
+	font-size: 13px;
+	
+}
+
+.m_icon {
+	margin: 3px 0px 0px 0px;
+}
+
+.detail {
+	background: #444444;
+	font-size: 15px;
+	color: #fff;
+	width: 105px;
+	height: 16px;
+	padding: 5px 0px;
+	float: right;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+#board_title01 {
+	width: 3%;
+}
+
+#board_title02 {
+	width: 5%;
+}
+
+#board_title03 {
+}
+
+#board_title04 {
+	width: 8%;
+}
+
+#board_title05 {
+	width: 10%;
+}
+
+#board_title06 {
+	width: 10%;
+}
+
+#board_title07 {
+	width: 7%;
+}
+
+#board_title08 {
+	width: 7%;
+}
+
+#board_title09, #board_title10 {
+	width: 5%;
+}
+
+#board_title11 {
+	width: 10%;
+}
+
+#delete_btn_all {
+	width: 3%;
+}
+.text {
+	background: #5e4444;
+	color: #fff;
+	height: 30px;
+	border: 1px solid #9c9b9b;
+}
+
+table tr td {
+	font-size: 13px;
+	text-align: center;
+	height: 25px;
+}
+
+table tr td input[type=text] {
+	width: 90%;
+}
+
+table {
+	border: 1px solid #9c9b9b;
+	margin-top:10px;
+}
+
+table td {
+	border: 1px solid #ddd;
+}
+
+#s_list tr td a {
+	color: #1039d2;
+}
+
+#btn_bar {
+	background: #efefef;
+	height: 45px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+#btn_bar input {
+	margin-top: 7px;
+	height: 30px;
+}
+
+#popup_contents {
+	width: 900px;
+	height: 600px;
+	background: #fff;
+	border: 1px solid #d7d7d7;
+	-webkit-border-radius: 3px;
+	padding: 20px 16px 18px 16px;
+	box-shadow: 0 1px 0 #aaa;
+}
+
+#popup_contents #s_import {
+	width: 855px;
+	height: 400px;
+	border: 1px solid #9c9b9b;
+	background: #fff;
+	margin: 20px auto 0px auto;
+}
+
+#popup_contents #s_import .im_title {
+	background: #293246;
+	color: #fff;
+	opacity: 1;
+	width: 100px;
+}
+
+#popup_contents #s_import td {
+	background: #fff;
+	opacity: 1;
+}
+
+#popup_contents #s_import td input {
+	width: 150px;
+}

@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+#student_space {
+	margin: 30px 0px 0px 30px;
+	padding: 30px;
+}
+
+.m_title,.m_icon {
+	float: left;
+}
+
+.m_title {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 3px 0px 0px 10px;
+}
+
+.m_icon {
+	margin: 0px 0px 0px 0px;
+}
+
+.detail {
+	background: #444444;
+	font-size: 15px;
+	color: #fff;
+	width: 105px;
+	height: 16px;
+	padding: 5px 0px;
+	float: right;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.detail div a {
+	color: #fff;
+}
+
+#board_title01 {
+	width: 45px;
+}
+
+#board_title02 {
+	width: 64px;
+}
+
+#board_title03 {
+	width: 127px;
+}
+
+#board_title04 {
+	width: 107px;
+}
+
+#board_title05 {
+	width: 138px;
+}
+
+#board_title06 {
+	width: 132px;
+}
+.text {
+	background: #5e4444;
+	color: #fff;
+	height: 30px;
+	border: 1px solid #9c9b9b;
+}
+
+table tr td {
+	font-size: 13px;
+	text-align: center;
+	height: 25px;
+}
+
+table {
+	border: 1px solid #9c9b9b;
+}
+
+table td {
+	border: 1px solid #ddd;
+}
+
+.view {
+	float:left;
+}
